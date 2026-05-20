@@ -264,19 +264,23 @@ export default function App() {
         </ul>
       </nav>
 
-      <section className="hero" style={{ paddingTop: 0 }}>
-        <div className="hbg"><img src="/hero.jpg" alt="" /></div>
-        <div className="hgrid" />
-        <div className="hc">
-          <div className="heyebrow">Greenville, SC — Residential Cleaning</div>
-          <h1>Your home,<br />handled.</h1>
-          <p className="hsub">See your price in 60 seconds. Book online. We show up. No calls. No consultations. No waiting.</p>
-          <div className="hbtns">
-            <a href="#quote" className="btn-t">Get Instant Quote</a>
-            <a href="#services" className="btn-g">View Services</a>
-          </div>
-        </div>
-      </section>
+   <section className="hero" style={{ paddingTop: 0 }}>
+  <div className="hbg"><img src="/hero.jpg" alt="" /></div>
+  <div className="hgrid" />
+  <div className="hc" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '2rem', flexWrap: 'wrap' }}>
+    <div style={{ flex: '1 1 340px', maxWidth: 520 }}>
+      <div className="heyebrow">Greenville, SC — Residential Cleaning</div>
+      <h1>Your home,<br />handled.</h1>
+      <p className="hsub">See your price in 60 seconds. Book online. We show up. No calls. No consultations. No waiting.</p>
+      <div className="hbtns">
+        <a href="#services" className="btn-g">View Services</a>
+      </div>
+    </div>
+    <div style={{ flex: '1 1 340px', maxWidth: 480 }}>
+      <Calculator />
+    </div>
+  </div>
+</section>
 
       <section id="services">
         <div className="svc-top">
