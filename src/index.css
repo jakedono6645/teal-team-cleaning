@@ -25,12 +25,12 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:cen
 .ncta{background:var(--teal)!important;color:var(--black)!important;padding:8px 22px;font-size:11px!important}
 .ncta:hover{background:var(--teal-dim)!important;color:var(--black)!important}
 
-.hero{min-height:100vh;position:relative;display:flex;align-items:flex-end;padding:0 52px 96px;overflow:hidden}
+.hero{min-height:100vh;position:relative;display:flex;align-items:center;padding:0 52px;overflow:hidden}
 .hbg{position:absolute;inset:0}
 .hbg img{width:100%;height:100%;object-fit:cover;opacity:0.18;filter:grayscale(40%)}
 .hbg::after{content:'';position:absolute;inset:0;background:linear-gradient(to top,rgba(9,13,13,1) 0%,rgba(9,13,13,0.55) 45%,rgba(9,13,13,0.2) 100%)}
 .hgrid{position:absolute;inset:0;background-image:linear-gradient(rgba(42,191,191,0.025) 1px,transparent 1px),linear-gradient(90deg,rgba(42,191,191,0.025) 1px,transparent 1px);background-size:72px 72px}
-.hc{position:relative;z-index:2;max-width:880px}
+.hc{position:relative;z-index:2;width:100%;max-width:1200px}
 .heyebrow{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.28em;text-transform:uppercase;color:var(--teal);margin-bottom:28px;display:flex;align-items:center;gap:14px}
 .heyebrow::before{content:'';display:block;width:36px;height:1px;background:var(--teal)}
 h1{font-family:'Cormorant Garamond',serif;font-size:clamp(60px,8.5vw,112px);font-weight:700;line-height:0.93;letter-spacing:-0.01em;color:var(--white);margin-bottom:32px}
@@ -167,4 +167,6 @@ footer{background:var(--black);border-top:1px solid var(--borderw);padding:56px 
   .ft{grid-template-columns:1fr;gap:32px}
   footer{padding:40px 20px 24px}
   .fb{flex-direction:column;gap:6px}
+  .fb{flex-direction:column;gap:6px}
+  .hc{flex-direction:column}
 }
