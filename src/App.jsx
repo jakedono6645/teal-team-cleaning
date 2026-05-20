@@ -264,7 +264,7 @@ export default function App() {
         </ul>
       </nav>
 
-   <section className="hero" style={{ paddingTop: 0 }}>
+   <section className="hero" style={{ paddingTop: 0, minHeight: 'auto' }}>
   <div className="hbg"><img src="/hero.jpg" alt="" /></div>
   <div className="hgrid" />
   <div className="hc" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '2rem', flexWrap: 'wrap' }}>
